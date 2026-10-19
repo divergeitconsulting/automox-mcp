@@ -40,3 +40,14 @@ mcp-registry-key.pem
 mcpb/.venv/
 mcpb/uv.lock
 .claude/
+
+# Secrets and local data (added by secret cleanup)
+!.env.example
+*.key
+*.pfx
+*.p12
+*.har
+*.csv
+**/serviceAccountKey*.json
+*-firebase-adminsdk-*.json
+.dev.vars*
